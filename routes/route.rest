@@ -1,0 +1,7 @@
+POST http://localhost:3000/sagutxu
+Content-type: application/json
+
+{
+    "tema": "temperatura",
+    "temperatura": 80
+}
