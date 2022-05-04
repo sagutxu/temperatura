@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
 const sagutxuSchema = new mongoose.Schema({
-    tema: String,
     temperatura: Number,
+    humedad: Number,
     fecha: Date
 })
 

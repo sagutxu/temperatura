@@ -2,8 +2,8 @@ const Temperatura = require('../models/Sagutxu')
 
 exports.sagutxu_crear = async (req, res) => {
     const temp = new Temperatura({
-        tema: req.body.tema,
         temperatura: req.body.temperatura,
+        humedad: req.body.humedad,
         fecha: req.body.fecha
     })
     try {
